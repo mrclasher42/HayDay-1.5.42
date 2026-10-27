@@ -1,9 +1,11 @@
+
+```markdown
 # Hay Day v1.5.42
 
 First ever open source Hay Day private server! For version 1.5.42.
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-[![Download IPA](https://img.shields.io/badge/Download-IPA-blue?logo=apple&logoColor=white)](https://bluetalktg.pythonanywhere.com/testflight/Hay%20Day%201.5.42%20%28772.14583.4279%29.ipa)
+[![Download IPA](https://img.shields.io/badge/Download-IPA-blue?logo=apple&logoColor=white)](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/releases/download/v1.5.42/Hay%20Day%201.5.42%20%28772.14583.4279%29.ipa)
 
 <img width="1024" height="768" alt="IMG_0058" src="https://github.com/user-attachments/assets/b08cafa0-1499-457d-ab98-f3d18c186ed4" />
 
@@ -25,7 +27,7 @@ The rest isn't implemented yet!
 
 ## Patching the client
 
-First, download the IPA from [here](https://bluetalktg.pythonanywhere.com/testflight/Hay%20Day%201.5.42%20%28772.14583.4279%29.ipa)
+First, download the IPA from [here](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/releases/download/v1.5.42/Hay%20Day%201.5.42%20%28772.14583.4279%29.ipa)
 
 The client asks `http://<host>:8080/env_settings` where the game server is. Three hard coded URLs point at HayDay's domains. `patcher.py` rewrites them:
 
@@ -35,10 +37,10 @@ Replace `192.168.x.x` with your IP address.
 python3 patcher.py "Hay Day 1.5.42 (772.14583.4279).ipa" haydaypatched.ipa 192.168.x.x
 ```
 
-The host must be at most 24 characters including the port. Once you're done install the .IPA using something like Sideloadly on a **jailbroken** device.
+The host must be at most 24 characters including the port. Once you're done install the .IPA using something like Sideloadly on a jailbroken device.
 
+Feel free to use this as base for your own projects :3
 
-## Feel free to use this as base for your own projects :3 
+Core based on Solaree/CoC-1.7.0
 
-
-### Core based on [Solaree/CoC-1.7.0](https://github.com/Solaree/CoC-1.7.0)
+```
