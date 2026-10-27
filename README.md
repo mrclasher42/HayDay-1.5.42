@@ -41,4 +41,4 @@ The host must be at most 24 characters including the port. Once you're done inst
 
 Feel free to use this as base for your own projects :3
 
-Core based on Solaree/CoC-1.7.0
+Core based on Solaree/CoC-1.7.0.
