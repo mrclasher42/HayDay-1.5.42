@@ -37,8 +37,4 @@ Replace `192.168.x.x` with your IP address.
 python3 patcher.py "Hay Day 1.5.42 (772.14583.4279).ipa" haydaypatched.ipa 192.168.x.x
 ```
 
-The host must be at most 24 characters including the port. Once you're done install the .IPA using something like Sideloadly on a jailbroken device.
-
-Feel free to use this as base for your own projects :3
-
-Core based on Solaree/CoC-1.7.0.
+The host must be at most 24 characters including the port. Once you're done install the .IPA using something like Sideloadly on a jailbroken device. 
