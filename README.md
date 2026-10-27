@@ -1,5 +1,5 @@
 
-```markdown
+
 # Hay Day v1.5.42
 
 First ever open source Hay Day private server! For version 1.5.42.
