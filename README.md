@@ -5,7 +5,7 @@
 First ever open source Hay Day private server! For version 1.5.42.
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-[![Download IPA](https://img.shields.io/badge/Download-IPA-blue?logo=apple&logoColor=white)](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/releases/download/v1.5.42/Hay%20Day%201.5.42%20%28772.14583.4279%29.ipa)
+[![Download IPA](https://img.shields.io/badge/Download-IPA-blue?logo=apple&logoColor=white)](https://github.com/mrclasher42/HayDay-1.5.42/releases/tag/v1.5.42)
 
 <img width="1024" height="768" alt="IMG_0058" src="https://github.com/user-attachments/assets/b08cafa0-1499-457d-ab98-f3d18c186ed4" />
 
@@ -27,7 +27,7 @@ The rest isn't implemented yet!
 
 ## Patching the client
 
-First, download the IPA from [here](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/releases/download/v1.5.42/Hay%20Day%201.5.42%20%28772.14583.4279%29.ipa)
+First, download the IPA from [here](https://github.com/mrclasher42/HayDay-1.5.42/releases/tag/v1.5.42)
 
 The client asks `http://<host>:8080/env_settings` where the game server is. Three hard coded URLs point at HayDay's domains. `patcher.py` rewrites them:
 
